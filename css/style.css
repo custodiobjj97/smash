@@ -9,3 +9,12 @@
 
 /*service*/
 @import "service/service.css";
+
+
+/*pricing*/
+@import "pricing/pricing.css";
+
+
+
+/*animation*/
+@import "animation/animation.css";

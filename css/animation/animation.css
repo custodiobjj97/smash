@@ -1,0 +1,11 @@
+[data-scroll]{
+    opacity: 0;
+    transform: translateX(-200px);
+    transition: .4s;
+}
+
+
+[data-scroll].visible{
+  opacity: 1;
+  transform: translateX(0);
+}
