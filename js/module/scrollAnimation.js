@@ -8,7 +8,7 @@ export default function initScrollAnimation() {
             const isSectionVisible = (elementTop - halfHeight) < 0
             if (isSectionVisible) {
                 section.classList.add('visible')
-            } else {
+            } else if(section.classList.contains('visible')) {
                 section.classList.remove('visible')
             }
         })

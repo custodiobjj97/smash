@@ -1,0 +1,45 @@
+.numbers{
+    padding: 100px  0px;
+    background-color: var(--color-primary);
+    color: var(--color-white);
+}
+
+.numbers h2{
+    text-align: center;
+    font-size: 2rem;
+    margin: 2rem;
+}
+
+.numbers p{
+    text-align: center;
+    font-size: 1.115rem;
+    line-height: 1.7;
+    margin-bottom: 2rem;
+}
+
+.number-boxs{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.number{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.number i{
+    font-size: 4rem;
+}
+
+.number span{
+    display: inline-block;
+    font-size: 2.45rem;
+}
+
+@media (min-width: 920px){
+    .number-boxs{
+        grid-template-columns: repeat(5,1fr);
+    }
+}
