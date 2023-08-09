@@ -1,0 +1,8 @@
+/*gloabl*/
+@import "global/global.css";
+@import "global/header.css";
+
+/*main*/
+
+/*home*/
+@import "home/home.css";
