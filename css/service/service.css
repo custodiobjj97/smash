@@ -1,0 +1,59 @@
+.service{
+    padding: 100px 0;
+    background-color: var(--color-gray);
+}
+
+.service h2{
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.service p{
+    text-align: center;
+    font-size: 1.115rem;
+    line-height: 1.7;
+}
+
+
+.group-box{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 22px;
+}
+
+.group-box .box{
+    display: flex;
+    
+    flex-direction: column;
+    width: 100%;
+    background-color: var(--color-white);
+    padding: 2rem;
+    border-radius: 5px;
+    
+}
+
+.box span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    margin-bottom: 2rem;
+}
+.box p{
+    margin-bottom: 2rem;
+}
+
+.box a{
+    padding: 1rem 2rem;
+    background-color: var(--color-primary);
+    color: var(--color-white);
+    border-radius: 5px;
+}
+@media (min-width:920px){
+    .group-box{
+        padding: 1rem;
+        grid-template-columns: repeat(3,1fr);
+        align-items: center;
+        gap: 25px;
+    }
+}

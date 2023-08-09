@@ -9,6 +9,7 @@
     --color-primary:hsl(215, 100%, 50%);
     --color-white:#fff;
     --color-gradient:linear-gradient(#0c52e7, #0c4ecf, #1423b9);
+    --color-gray:#ccc;
 }
 a{
     text-decoration: none;
