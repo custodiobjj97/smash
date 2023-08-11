@@ -17,7 +17,18 @@
 /*show number*/
 @import "number/number.css";
 
+/*about*/
+@import "about/about.css";
 
+/*team*/
+@import "team/team.css";
+
+
+/*contact*/
+@import "contact/contact.css";
+
+/*footer*/
+@import "footer/footer.css";
 
 
 /*animation*/

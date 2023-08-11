@@ -1,0 +1,39 @@
+.team{
+    padding: 100px 0px;
+}
+.team h2{
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.team p{
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.gruop-team{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.card-team{
+    text-align: center;
+}
+.card-team h3{
+    font-size: 2.15rem;
+    margin: 2rem;
+}
+.card-team img{
+   width: 100%; 
+}
+
+@media(min-width: 920px){
+    .gruop-team {
+        grid-template-columns: repeat(3,1fr);
+        gap: 40px;
+    }
+    .card-team{
+      padding: 1rem;
+      text-align: center;
+    }
+}

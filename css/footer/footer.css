@@ -1,0 +1,18 @@
+footer{
+    background-color: #333;
+    padding: 80px;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.list-social{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
